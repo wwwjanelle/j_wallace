@@ -1,4 +1,4 @@
-package helloWorld;
+package org.howard.edu.lsp.assignment1;
 
 /**
  * Janelle Wallace
