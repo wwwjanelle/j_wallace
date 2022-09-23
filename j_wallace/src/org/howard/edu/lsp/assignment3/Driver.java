@@ -1,4 +1,9 @@
 package org.howard.edu.lsp.assignment3;
+/**
+ * Janelle Wallace
+ * @author janellewallace
+ *
+ */
 
 public class Driver {
 
