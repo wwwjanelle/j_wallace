@@ -7,6 +7,10 @@ package org.howard.edu.lsp.assignment4;
 
 
 public class IntegerSetException extends Exception {
+	/**
+	 * Contains the IntegerSetException extension.
+	 *
+	 */
 	public IntegerSetException() {}
 	public IntegerSetException(String message)
     {

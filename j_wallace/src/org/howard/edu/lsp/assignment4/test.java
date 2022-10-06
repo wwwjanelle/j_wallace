@@ -9,8 +9,16 @@ import java.util.Arrays;
  */
 
 public class test {
+	/**
+	 * Contains the test cases for the IntegerSet class.
+	 *
+	 */
 
 	public static void main(String[] args) throws IntegerSetException {
+		/**
+		 * Drives the test cases.
+		 *
+		 */
 		
 		IntegerSet set1 = new IntegerSet();
 		IntegerSet set2 = new IntegerSet();
