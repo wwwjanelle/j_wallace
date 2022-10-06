@@ -5,7 +5,6 @@ package org.howard.edu.lsp.assignment4;
  *
  */
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
