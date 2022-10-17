@@ -154,6 +154,22 @@ public class IntegerSetTest {
 	}
 	
 	@Test
+	@DisplayName("Find the largest value of an empty set.")
+	public void testLargestException() {
+		IntegerSet set1 = new IntegerSet();
+	    Throwable exception = assertThrows(IntegerSetException.class, () -> set1.largest());
+	    assertEquals("Integer set is empty", exception.getMessage());
+	}
+	
+	@Test
+	@DisplayName("Find the smallest value of an empty set.")
+	public void testSmallestException() {
+		IntegerSet set1 = new IntegerSet();
+	    Throwable exception = assertThrows(IntegerSetException.class, () -> set1.smallest());
+	    assertEquals("Integer set is empty", exception.getMessage());
+	}
+	
+	@Test
 	@DisplayName("Find the union.")
 	public void testUnion() {
 		IntegerSet set1 = new IntegerSet();
@@ -212,7 +228,7 @@ public class IntegerSetTest {
 	}
 	
 	@Test
-	@DisplayName("Find the difference.")
+	@DisplayName("Find the difference of equal sets.")
 	public void testDiffEmptySet() {
 		IntegerSet set1 = new IntegerSet();
 		IntegerSet set2 = new IntegerSet();
@@ -242,7 +258,7 @@ public class IntegerSetTest {
 	}
 	
 	@Test
-	@DisplayName("Find the smallest value.")
+	@DisplayName("Convert to string.")
 	public void testToString() {
 		IntegerSet set1 = new IntegerSet();
 		set1.add(1);
