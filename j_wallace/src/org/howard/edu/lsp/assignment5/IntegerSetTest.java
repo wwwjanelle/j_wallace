@@ -7,7 +7,11 @@ import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
 public class IntegerSetTest {
-
+	/**
+	 * Janelle Wallace
+	 * @author janellewallace
+	 *
+	 */
 	@Test
 	@DisplayName("Clear a set that is not empty.")
 	public void testClearFull() {
