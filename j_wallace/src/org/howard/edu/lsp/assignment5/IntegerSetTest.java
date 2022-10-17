@@ -8,12 +8,6 @@ import org.junit.jupiter.api.DisplayName;
 
 public class IntegerSetTest {
 
-//	@BeforeEach
-//	public void setUp() throws Exception {
-//		IntegerSet set1 = new IntegerSet();
-//		IntegerSet set2 = new IntegerSet();
-//	}
-
 	@Test
 	@DisplayName("Clear a set that is not empty.")
 	public void testClearFull() {
