@@ -250,7 +250,7 @@ public class IntegerSetTest {
 	}
 	
 	@Test
-	@DisplayName("Set is empty.")
+	@DisplayName("Set is not empty.")
 	public void testIsEmptyFalse() {
 		IntegerSet set1 = new IntegerSet();
 		set1.add(1);
