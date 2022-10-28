@@ -1,4 +1,9 @@
 package org.howard.edu.lsp.midterm.problem1;
+/**
+ * Janelle Wallace
+ * @author janellewallace
+ *
+ */
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
@@ -13,11 +18,11 @@ class VotingMachineTest {
 	public void testAddCandidate() {
 		VotingMachine votingmachine = new VotingMachine();
 		votingmachine.addCandidate("Joe Biden");
-		assertTrue(votingmachine.containsKey("Joe Biden"));
+		assertTrue(votingmachine.containsCandidate("Joe Biden"));
 	}
 	
 	@Test
-	@DisplayName("Cast votes to the voting machine.")
+	@DisplayName("Get votes from voting machine.")
 	public void testCastVotes() throws UnknownCandidateException {
 		VotingMachine votingmachine = new VotingMachine();
 		votingmachine.addCandidate("Joe Biden");

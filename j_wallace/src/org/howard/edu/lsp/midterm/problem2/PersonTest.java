@@ -1,4 +1,9 @@
 package org.howard.edu.lsp.midterm.problem2;
+/**
+ * Janelle Wallace
+ * @author janellewallace
+ *
+ */
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
