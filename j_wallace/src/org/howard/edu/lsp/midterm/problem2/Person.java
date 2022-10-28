@@ -1,4 +1,9 @@
 package org.howard.edu.lsp.midterm.problem2;
+/**
+ * Janelle Wallace
+ * @author janellewallace
+ *
+ */
 
 public class Person {
 	private String name; 
