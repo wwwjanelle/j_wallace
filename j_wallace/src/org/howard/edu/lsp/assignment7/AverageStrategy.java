@@ -7,6 +7,11 @@ package org.howard.edu.lsp.assignment7;
 import java.util.List;
 
 public interface AverageStrategy {
+	/**
+	 * Strategy interface for computing the average grade. Throws an exception when list is empty
+	 *Input: List<Integer>
+	 *Output: int
+	 */
 	public int compute(List<Integer> grades) throws EmptyListException;
 
 }

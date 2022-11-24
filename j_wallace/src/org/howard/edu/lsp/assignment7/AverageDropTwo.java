@@ -8,6 +8,11 @@ import java.util.Collections;
 import java.util.List;
 
 public class AverageDropTwo implements AverageStrategy{
+	/**
+	 * Computes the combined average after dropping the two lowest grades in the list. Throws an exception when list is empty
+	 *Input: List<Integer>
+	 *Output: int
+	 */
 
 	public int compute(List<Integer> grades) throws EmptyListException {
 		if (grades.isEmpty()) {
